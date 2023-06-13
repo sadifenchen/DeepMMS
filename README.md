@@ -17,6 +17,6 @@ This is the repository for Professor Minh's group. It contains the codes and res
 
 * The folder references is used to contain the papers and documents related.
 
- + the subfolder papers contains all the official published paper.
+  + the subfolder papers contains all the official published paper.
 
- + the subfolder documents contains all the documents and paper drafts written by group members.
+  + the subfolder documents contains all the documents and paper drafts written by group members.
