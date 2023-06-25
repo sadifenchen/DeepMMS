@@ -1,0 +1,36 @@
+{
+    "fixed" : { 
+        "_kval_unit" : "kJ/mol/nm^2",
+        "_length_unit" : "nm",
+        "kval" : 20000.0,
+        "atoms": [5, 97],
+        "R0_A":  [0.0, 0.0, 1.9],
+        "R0_B":  [0.0, 0.0, 2.0]
+    },
+    "fname_prmtop": "ala_deca_peptide.prmtop",
+    "fname_dcd_A": "L190/traj_complex.dcd",
+    "fname_dcd_B": "L200/traj_complex.dcd",
+    "realNVP": {
+        "hidden_dim": 128,
+        "hidden_layers": 10,
+        "mask_fixed" : [1, 5]
+    },
+    "restart_nn": {
+        "run": false,
+        "fname_restart": "F19_20/TEST/restart_nn_large.pkl"
+    },
+    "fname_log":    "F19_20/TEST/out_da_k20000_large.log",
+    "fname_mA_dcd": "F19_20/TEST/traj_mA.dcd",
+    "fname_mB_dcd": "F19_20/TEST/traj_mB.dcd",
+    "fname_nn_pkl": "F19_20/TEST/restart_nn_large.pkl",
+    "fname_nn_test_pkl": "F19_20/TEST/restart_nn_test.pkl",
+    "random_seed": 2,
+    "optax": {
+        "learning_rate": 1.0e-4,
+        "total_steps": 10000,
+        "alpha": 0.8
+    },
+    "nsamp" :  8000,
+    "nepoch" : 14000,
+    "d_lambda": 0.010
+}
